@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ガクたん</string>
+    <string name="title_home">Home</string>
+    <string name="title_cards">Lists</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_download">Download</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="decide">決定</string>
+    <string-array name="list">
+        <item>名詞</item>
+        <item>代名詞</item>
+        <item>動詞</item>
+        <item>形容詞</item>
+        <item>副詞</item>
+        <item>前置詞</item>
+        <item>間投詞</item>
+        <item>助動詞</item>
+        <item>冠詞</item>
+        <item>表現</item>
+    </string-array>
+    <string name="textview_message3_finish">正解でした</string>
+    <string name="textview_explain_chart1">単語の正解率</string>
+    <string name="upload_error">アップロードに失敗しました。もう一回してください。</string>
+    <string name="title_activity_tutorial_main">TutorialMainActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.naoto.dennnoukishidann.word_book.wordsFragments.AddWordsFragment">
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_add_words"
+            android:drawableTop="@drawable/ic_add_white_48dp"
+            android:gravity="bottom|center"
+            android:text="Add!"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button_decide"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/button_add_words"
+                android:drawableTop="@drawable/ic_check_white_48dp"
+                android:gravity="bottom|center"
+                android:text="OK!"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+            <RelativeLayout
+                android:id="@+id/relative_error"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button_words_error"
+                android:layout_marginRight="5dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

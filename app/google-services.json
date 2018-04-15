@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "471827370993",
+    "firebase_url": "https://englishflashcards-d6798.firebaseio.com",
+    "project_id": "englishflashcards-d6798",
+    "storage_bucket": "englishflashcards-d6798.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471827370993:android:b537cd62377fe6bb",
+        "android_client_info": {
+          "package_name": "com.naoto.dennnoukishidann.word_book"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471827370993-f2ia09h2500rot2ocpsd6do57rs83ifh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsBNZ5Z38VKbqQMg7Z6rIyLyRWYcq8bcI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

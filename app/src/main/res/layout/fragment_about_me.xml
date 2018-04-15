@@ -1,0 +1,41 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.naoto.dennnoukishidann.word_book.shareFragment.AboutMeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_uploaded"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center|left"
+            android:text="アップロードしたもの"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+        <com.naoto.dennnoukishidann.word_book.classes.NonScrollListView
+            android:id="@+id/list_uploaded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/text_downloaded"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center|left"
+            android:text="ダウンロードしたもの"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+        <com.naoto.dennnoukishidann.word_book.classes.NonScrollListView
+            android:id="@+id/list_downloaded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

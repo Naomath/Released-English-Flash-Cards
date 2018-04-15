@@ -1,0 +1,33 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.example.gotounaoto.myapplication.classes.NonScrollListView
+            android:id="@+id/user_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_popular"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center|left"
+            android:text="人気な単語帳"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+
+        <com.example.gotounaoto.myapplication.classes.NonScrollListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_popular" />
+    </LinearLayout>
+
+</ScrollView>

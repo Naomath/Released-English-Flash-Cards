@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.naoto.dennnoukishidann.word_book.questionFragment.FinishQuestionFragment">
+
+    <TextView
+        android:id="@+id/text_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="直人さんは130問中"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/text_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="60問"
+        android:textSize="60dp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"/>
+
+    <TextView
+        android:id="@+id/text_third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="正解でした"
+        android:textSize="30dp"
+        android:layout_marginRight="16dp"
+        android:gravity="right"/>
+
+    <ImageButton
+        android:id="@+id/button_go_home"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom|right"
+        android:background="@color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_home_black_24dp"
+        android:layout_marginTop="100dp" />
+</LinearLayout>
