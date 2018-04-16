@@ -94,6 +94,7 @@ public class FirebaseProcessing {
         gettingBookReference().orderByChild("download_time").limitToLast(20).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
+                //無限ループが起きるかも
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                     Book item = snapshot.getValue(Book.class);
                     item.setBook_path(snapshot.getKey());
