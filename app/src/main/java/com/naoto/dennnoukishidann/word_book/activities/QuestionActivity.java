@@ -47,6 +47,7 @@ public class QuestionActivity extends AppCompatActivity implements OnSendWordLis
         //初期値を設定
         setContentView(R.layout.activity_question);
         gettingIntent();
+        judgeExistWords();
         changeFragment(1);
         settingFragment();
         //流れ的には　        //gettingIntent()-->settingPresentedToday() or settingPresentedWeak()
@@ -68,6 +69,13 @@ public class QuestionActivity extends AppCompatActivity implements OnSendWordLis
             return true;
         } else {
             return false;
+        }
+    }
+
+    public void judgeExistWords(){
+        //ここでアイテムがないことが発覚したら終わらせる
+        if (presented_items.size()==0){
+            IntentProcessing.backToMainWithMessage(this,"この問題に該当する単語がまだありません。", 0);
         }
     }
 

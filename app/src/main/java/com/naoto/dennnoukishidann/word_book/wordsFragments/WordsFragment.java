@@ -197,6 +197,7 @@ public class WordsFragment extends Fragment implements View.OnClickListener {
         //上のによりfirebase上でアップロードしたことにする
         book.setList_words(book.returnWords());
         //上で単語を入れている。.save()させてないのはリストは保存できなから
+        book.setUser_name(CallSharedPreference.callUserName(getActivity()));
     }
 
     public void settingShowcaseView() {

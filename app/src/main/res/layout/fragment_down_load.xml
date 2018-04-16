@@ -8,7 +8,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.example.gotounaoto.myapplication.classes.NonScrollListView
+        <com.naoto.dennnoukishidann.word_book.classes.NonScrollListView
             android:id="@+id/user_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -23,7 +23,7 @@
             android:textColor="@color/colorPrimary"
             android:textSize="20dp" />
 
-        <com.example.gotounaoto.myapplication.classes.NonScrollListView
+        <com.naoto.dennnoukishidann.word_book.classes.NonScrollListView
             android:id="@+id/list_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

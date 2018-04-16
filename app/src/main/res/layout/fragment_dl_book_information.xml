@@ -11,7 +11,7 @@
         android:layout_height="0dp"
         android:layout_weight="7">
 
-        <com.example.gotounaoto.myapplication.classes.NonScrollListView
+        <com.naoto.dennnoukishidann.word_book.classes.NonScrollListView
             android:id="@+id/list_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
