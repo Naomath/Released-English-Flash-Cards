@@ -6,8 +6,8 @@ android {
         applicationId "com.naoto.dennnoukishidann.word_book"
         minSdkVersion 15
         targetSdkVersion 26
-        versionCode 3.1
-        versionName "3.1"
+        versionCode 4
+        versionName "4"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
     }
